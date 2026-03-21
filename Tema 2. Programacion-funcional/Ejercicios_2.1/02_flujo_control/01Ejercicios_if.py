@@ -5,6 +5,9 @@ if system("clear") != 0: system("cls")
 # Ejercicio 1: Determinar el mayor de dos números
 # Pide al usuario que introduzca dos números y muestra un mensaje
 # indicando cuál es mayor o si son iguales
+
+print("Ejercicio 1: Determinar el mayor de dos números\n")
+
 num1 = int(input("Inserte el primer numero: "))
 num2 = int(input("Inserte el segundo numero: "))
 
@@ -19,6 +22,7 @@ print("-----------------------------------------------\n")
 # Ejercicio 2: Calculadora simple
 # Pide al usuario dos números y una operación (+, -, *, /)
 # Realiza la operación y muestra el resultado (maneja la división entre zero)
+print("Ejercicio 2: Calculadora simple\n")
 
 nume1 = float(input("Inserte el primer numero: "))
 nume2 = float(input("Inserte el segundo numero: "))
@@ -45,6 +49,7 @@ print("-----------------------------------------------\n")
 # Ejercicio 3: Año bisiesto
 # Pide al usuario que introduzca un año y determina si es bisiesto.
 # Un año es bisiesto si es divisible por 4, excepto si es divisible por 100 pero
+print("Ejercicio 3: Año bisiesto\n")
 
 año = int(input("Inserte un año: "))
 if año %    400 == 0:
@@ -65,6 +70,8 @@ print("-----------------------------------------------\n")
 # - Adolescente (13-17 años)
 # - Adulto (18-64 años)
 # - Adulto mayor (65 años o más)
+
+print("Ejercicio 4: Categorizar edades\n")
 
 edad = int(input("Inserte su edad: "))
 
