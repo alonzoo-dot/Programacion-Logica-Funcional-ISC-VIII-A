@@ -34,8 +34,13 @@ print("Convierte la cadena \"12345\" a un entero y luego a un float.")
 print("Convierte el float 3.99 a un entero. ¿Qué ocurre? \n")
 
 ### Completa aquí
-print(float(int("12345"))) 
-print(int(3.99)) 
+cadena = "12345"
+entero = int(cadena)
+flotante = float(cadena)
+print(f"Entero: {entero}")
+print(f"Flotante: {flotante}")
+numero_flotante = 3.99
+numero_entero = int(numero_flotante)    
 
 print("------------------")
 
@@ -59,4 +64,5 @@ print("1. Crea una variable con el número PI (sin asignar una variable)")
 print("2. Redondea el número con round()")
 print("3. Haz la división entera entre el número que te salió y el número 2")
 print("4. El resultado debería ser 1\n")
+
 print(f"El resultado es: {round(3.14159) // 2}")
