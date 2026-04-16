@@ -80,3 +80,5 @@ resultado = lista[:mitad][::-1] + lista[mitad:]
 print(resultado)
 
 print("----------------------------------\n")
+
+

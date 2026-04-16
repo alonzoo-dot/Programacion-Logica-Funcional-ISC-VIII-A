@@ -48,7 +48,7 @@ print("-----------------------------------------------\n")
       
 # Ejercicio 3: Año bisiesto
 # Pide al usuario que introduzca un año y determina si es bisiesto.
-# Un año es bisiesto si es divisible por 4, excepto si es divisible por 100 pero
+# Un año es bisiesto si es divisible por 4, excepto si es divisible por 100 pero no por 400.
 print("Ejercicio 3: Año bisiesto\n")
 
 año = int(input("Inserte un año: "))
@@ -87,3 +87,5 @@ elif edad <= 64:
     print("Eres un adulto")
 else:
     print("Eres un adulto mayor")
+    
+    
